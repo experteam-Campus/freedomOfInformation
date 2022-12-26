@@ -17,9 +17,9 @@ main {
     background: #282f39 !important;
 }
 
-div#content {
+/*div#content {
     background-color: #282f39;
-}
+}*/
 
 .course-wrapper {
     background-color: #282f39 !important;
@@ -304,7 +304,6 @@ margin-top:30px !important;
     font-family: 'Assistant', sans-serif;
     padding: 6px 14px;
     font-weight: 400;
-    background-color: #142654;
     color: #ff9600 !important;
     margin-top: -47px;
     border-radius: 10px;
@@ -312,6 +311,41 @@ margin-top:30px !important;
     z-index: 1;
     margin-bottom: 20px;
 }
+
+.textHeadline,
+.textHeadlineNoLine,
+ h3.hd.hd-2,
+.discussion-module-title:after {
+    border-radius: 77px;
+    background-color: white;
+    position: absolute;
+    content: "";
+    width: 3%;
+    height: 18%;
+    top: -25px;
+    left: 247px;
+    transform: rotate(1.5deg);
+    z-index: 0;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
+}
+
+.textHeadline,
+.textHeadlineNoLine,
+ h3.hd.hd-2,
+.discussion-module-title:before {
+    border: 2px solid #3eb1c7;
+    border-radius: 77px;
+    position: absolute;
+    content: "";
+    width: 13%;
+    height: 70%;
+    top: -23px;
+    left: 239px;
+    transform: rotate(1.5deg);
+    z-index: 0;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
+}
+
 
 .ethicRules h4 {
     font-size: 1.5em !important;
