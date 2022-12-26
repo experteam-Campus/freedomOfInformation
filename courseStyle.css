@@ -11,6 +11,15 @@ main {
 }
 
 
+//background
+.window-wrap {
+    background-color: #282f39;
+}
+
+div#content {
+    background-color: #282f39;
+}
+
 #main,
 body,
 h1,
