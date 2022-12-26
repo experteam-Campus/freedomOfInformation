@@ -252,7 +252,7 @@ a,
     border-radius: 10px;
     display: inline;
     z-index: 1;
-    background: #142657;
+ background: linear-gradient(90deg, rgba(61,177,199,1) 0%, rgba(58,165,193,1) 30%, rgba(48,117,171,1) 100%);
 }
 
 .maintextHeadline:before {
