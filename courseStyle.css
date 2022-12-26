@@ -312,39 +312,6 @@ margin-top:30px !important;
     margin-bottom: 20px;
 }
 
-.textHeadline,
-.textHeadlineNoLine,
- h3.hd.hd-2,
-.discussion-module-title:after {
-    border-radius: 77px;
-    background-color: white;
-    position: absolute;
-    content: "";
-    width: 3%;
-    height: 18%;
-    top: -25px;
-    left: 247px;
-    transform: rotate(1.5deg);
-    z-index: 0;
-    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
-}
-
-.textHeadline,
-.textHeadlineNoLine,
- h3.hd.hd-2,
-.discussion-module-title:before {
-    border: 2px solid #3eb1c7;
-    border-radius: 77px;
-    position: absolute;
-    content: "";
-    width: 13%;
-    height: 70%;
-    top: -23px;
-    left: 239px;
-    transform: rotate(1.5deg);
-    z-index: 0;
-    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
-}
 
 
 .ethicRules h4 {
