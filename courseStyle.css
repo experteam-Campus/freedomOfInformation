@@ -256,17 +256,32 @@ a,
 }
 
 .maintextHeadline:before {
-    border: 2px solid #fcc02eff;
-    border-radius: 7px;
+    border: 2px solid #ff9600;
+    border-radius: 77px;
     position: absolute;
     content: "";
-    width: 101%;
+    width: 17%;
     height: 100%;
-    top: -3px;
-    left: 1px;
+    top: -43px;
+    left: -21px;
     transform: rotate(1.5deg);
     z-index: 0;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
+}
+
+h3.maintextHeadline:after {
+    border: 2px solid #ff9600;
+    border-radius: 77px;
+    position: absolute;
+    content: "";
+    width: 3%;
+    height: 20%;
+    top: -44px;
+    left: 17px;
+    transform: rotate(1.5deg);
+    z-index: 0;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
+    background-color: #ff9600;
 }
 
 
