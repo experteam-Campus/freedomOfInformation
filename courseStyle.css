@@ -14,7 +14,7 @@ main {
 
 //background
 .window-wrap {
-    background-color: #282f39;
+    background-color: #282f39 !important;
 }
 
 div#content {
