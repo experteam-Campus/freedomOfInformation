@@ -1,0 +1,1594 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+:root {
+    --regular-size: 18px;
+    font-family: 'Assistant', sans-serif;
+}
+
+main {
+    font-size: 110%;
+}
+
+
+#main,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+    color: black;
+}
+
+a,
+li,
+span,
+.wrapper-course-material .course-tabs li a,
+.wrapper-course-material .course-tabs li a:visited,
+.rtl .course-index .accordion .course-navigation .button-chapter .group-heading {
+    font-family: 'Assistant', sans-serif;
+}
+
+
+/* LINE BETWEEN COMPONENTS - KOA UPDATE */
+.course-wrapper .course-content .vert-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding: 0 0;
+}
+
+/*HIDE GREEN CHECKMARK*/
+.fa-check-circle {
+    display: none !important;
+    font-size: 0 !important;
+}
+
+.fa-check-circle:before {
+    content: "" !important;
+}
+
+
+/* P PREFERENCES */
+
+.xmodule_display.xmodule_HtmlModule p {
+    margin-bottom: 1.416em;
+    font-size: 1.1em;
+    line-height: 1.6em !important;
+    color: #3c3c3c;
+}
+
+
+/*text color */
+
+.copy-lead a,
+.copy-large a,
+.copy-base a,
+.alert-copy a,
+.alert-copy-with-title a,
+.copy-meta a,
+.table caption a,
+.table-simplified caption a,
+.copy-micro a,
+.wrapper-footer footer#footer-openedx a,
+a,
+.link,
+.btn-link,
+.table-sortable .sortable .action-sort {
+    color: black;
+}
+
+
+/* course component - backgrounds and borders */
+
+.container>div {
+    border: none;
+}
+
+.course-index {
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+    border-left: none;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem-progress {
+    display: none;
+}
+
+.xblock--drag-and-drop .problem-progress {
+    display: none;
+}
+
+/* PADDING, MARGIN AND LINES BETWEEN COMPONENTS */
+
+.course-wrapper .course-content .vert-mod .vert>.xblock-student_view,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    border-bottom: none;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    padding: 0 0 17px;
+}
+
+.content-wrapper .page-header {
+    border-bottom: none;
+}
+
+
+/* SHADOW UNDER VIDEO COMPONENT */
+
+.xmodule_display.xmodule_VideoModule .video {
+    background: #f5f5f5;
+    display: block;
+    margin: 31px -12px 0px;
+    padding: 13px;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    background-color: #F7F7F7;
+}
+
+
+/*  TITLES */
+
+
+/* unit title */
+
+
+/* OLD */
+
+
+/* .h2.hd-2,
+.xblock .xblock h2 {
+    font-size: 2em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+  
+    padding: 6px 20px 6px 20px;
+    font-weight: 700;
+    height: 60px;
+    color: #00517d;
+}
+ */
+
+
+/* NEW */
+
+.h2.hd-2,
+.xblock .xblock h2 {
+    font-size: 2em !important;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 20px 6px 20px;
+    font-weight: 700;
+    color: #142654;
+    background: linear-gradient(90deg, rgba(254, 218, 44, 1) 0%, rgba(252, 192, 46, 1) 100%);
+    height: 60px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+
+/* .h2.hd-2,
+.xblock .xblock h2:before,
+.h2.hd-2,
+.xblock .xblock h2:after,
+.h2.hd-2,
+.xblock .xblock h2>:first-child:before,
+.h2.hd-2,
+.xblock .xblock h2>:first-child:after {
+    position: absolute;
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    border-color: #fcc02eff;
+    border-style: solid;
+}
+
+.h2.hd-2,
+.xblock .xblock h2:before {
+    top: 35px;
+    left: -1px;
+    border-width: 0px 0px 5px 5px;
+}
+
+.h2.hd-2,
+.xblock .xblock h2:after {
+    top: 0px;
+    right: -1px;
+    border-width: 5px 5px 0 0;
+}
+
+.h2.hd-2,
+.xblock .xblock h2>:first-child:before {
+    bottom: 0;
+    right: 0;
+    border-width: 0 1px 1px 0
+}
+
+.h2.hd-2,
+.xblock .xblock h2>:first-child:after {
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 1px 1px
+} */
+
+
+/* MAIN TEXT HEADLINE */
+
+.maintextHeadline {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background: #142657;
+}
+
+.maintextHeadline:before {
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -3px;
+    left: 1px;
+    transform: rotate(1.5deg);
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+}
+
+
+/* VIDEO AND REGULAR TEXT HEADLINE */
+ .xmodule_VideoBlock,  h3.hd.hd-2{
+
+margin-top:30px !important;
+}
+
+
+
+
+.textHeadline,
+.textHeadlineNoLine,
+ h3.hd.hd-2,
+.discussion-module-title {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 400;
+    background-color: #142654;
+    color: white !important;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline-block;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.ethicRules h4 {
+    font-size: 1.5em !important;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    background-color: #142654;
+    color: white !important;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 25px !important;
+    position: absolute;
+    margin-right: -10px !important;
+    padding-right: 20px;
+    z-index: 0 !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.ethicRules p {
+    padding: 10px 40px;
+}
+
+.imageList {
+    width: 100px;
+}
+
+
+
+/* .textHeadline {
+    top: -25px
+} */
+
+/* .textHeadline:before,
+ h3.hd.hd-2::before,
+.discussion-module-title:before {
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -3px;
+    left: 1px;
+    transform: rotate(2.5deg);
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+} */
+
+
+/* PROBLEMS HEADLINES */
+
+
+/* OLD */
+
+
+/* .hd.hd-3 {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+
+    padding: 6px 14px;
+    font-weight: 700;
+    background-color: #00517d;
+    color: white;
+ 
+    margin-top: -47px;
+} */
+
+
+
+/*.hd.hd-3 {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700;
+    background-color: #142654;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+}
+
+
+ .hd.hd-3:before {
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 4deg);
+    z-index: -1;
+    background-color: #fcc02eff;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+
+    .hd.hd-3:before {
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -2px;
+    left: 0px;
+    transform: rotate( 2.5deg);
+    z-index: 0;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+}
+
+} */
+
+/* NEW 01/07/22 */
+
+.hd.hd-3 {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background: #142657;
+}
+
+/* .hd.hd-3:before {
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -2px;
+    left: 0px;
+    transform: rotate( 2.5deg);
+    z-index: 0;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+} */
+
+.tirgulHeadline {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: #142657;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background: linear-gradient( 90deg, rgba(254, 218, 44, 1) 0%, rgba(252, 192, 46, 1) 100%);
+}
+
+.tirgulHeadline:before {
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -2px;
+    left: 0px;
+    transform: rotate( 1.5deg);
+    z-index: 0;
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+}
+
+.simple-solution div h3 {
+    font-size: 1.4em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background: #142657;
+}
+
+.simple-solution div h3:before {
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -3px;
+    left: 1px;
+    transform: rotate(2.5deg);
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+}
+
+
+
+/* cancel the little shadow on the left */
+
+body.view-in-course .course-wrapper,
+body.view-in-course .profile-wrapper,
+body.view-in-course .instructor-dashboard-wrapper-2,
+body.view-in-course .wiki-wrapper,
+body.view-in-course .teams-wrapper,
+body.view-in-course .static_tab_wrapper {
+    box-shadow: none;
+}
+
+
+/* HTML TEXT DIV */
+
+.textDiv {
+    margin: 28px 10px 50px 10px;
+}
+
+.textDiv.greyBG {
+    background-color: #e7e6e6;
+    padding: 15px 15px 1px 15px;
+    border-radius: 12px;
+}
+
+.textDiv.WWL {
+    background-color: #dde8ff;
+    padding: 3em 6em;
+    border-radius: 15px;
+}
+
+.textDiv.WWL h4 {
+    font-size: 1.8em;
+    background-color: white;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -0.7em;
+    font-size: 1.8em;
+    background-color: white;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -0.7em;
+    margin-block-end: 3vw;
+    color: #142654;
+    font-weight: bold;
+}
+
+.textDiv img.WWLIMG {
+    float: right;
+    margin-right: -5em !important;
+    width: 5em;
+    margin-top: -2.5%;
+}
+
+.textDiv.WWL.winningTip h4 {
+    border: 3px solid #5176b9;
+    color: #5176b9;
+    font-size: 1.6em;
+}
+
+.textDiv.WWL.winningTip {
+    background-color: white;
+}
+
+.textDiv a button {
+    border-radius: 0.5em;
+    background-color: #142654;
+    border: 1px solid #142654;
+    color: white;
+    text-shadow: none;
+    box-shadow: none;
+    font-size: 1.1em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    position: relative;
+    width: fit-content;
+    padding: 0.5% 2%;
+}
+
+.textDiv a button:hover {
+    border: 1px solid #142654;
+    background: #142654 !important;
+    box-shadow: none;
+    text-shadow: none;
+    -webkit-appearance: none;
+}
+
+.textDiv a button:hover::before {
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -3px;
+    left: 1px;
+    transform: rotate(2.5deg);
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+}
+
+
+/* CENTER EVERY IMG INSIDE textDiv */
+
+.textDiv img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.textDiv img.imgRight {
+    display: block;
+    margin-left: auto !important;
+}
+
+.textDiv img.imgLeft {
+    display: block;
+    margin-right: auto !important;
+}
+
+
+/* big blue rectangle */
+
+
+/* נסיון כושל לשים ריבוע כחול מסביב לכל העמוד */
+
+
+/* main#main:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 69%;
+    height: 90%;
+    top: 258px;
+    left: 29px;
+    background-color: #00517d;
+    
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.9deg);
+    z-index: 0;
+} */
+
+
+/* cancel background transparency */
+
+
+/* .xblock.xblock-student_view.xblock-student_view-sequential.xmodule_display.xmodule_SequenceModule.xblock-initialized {
+    position: relative;
+    background-color: transparent;
+} */
+
+
+/* white background to all content */
+
+
+/* .vert-mod {
+    background-color: white;
+} */
+
+
+/* .course-wrapper .course-content .vert-mod,
+.course-wrapper .courseware-results-wrapper .vert-mod {
+    padding: 0px;
+    margin: none !important;
+    line-height: 1.4;
+    list-style: none;
+    box-shadow: 0px -3px 9px -1px rgb(0 0 0 / 5%);
+    width: 94%;
+    padding: 0px 25px 0px 25px;
+} */
+
+
+/* cancel the line above the content */
+
+.course-wrapper .course-content .vert-mod .vert>.xblock-student_view,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    border-bottom: none;
+    margin-bottom: 15px;
+    padding: 0 0 15px;
+}
+
+.problems-wrapper {
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    background-color: #F7F7F7;
+    padding: 3%;
+    position: relative;
+    z-index: 1;
+    margin: 0px -12px 0px;
+    height: fit-content;
+    display: flow-root;
+}
+
+.problems-wrapper:before {
+    position: absolute;
+    /* content: ""; */
+    /* display: block; */
+    width: 99%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    /* box-shadow: -50px 120px 4px 10px #555; */
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.9deg);
+    z-index: -1;
+    background-color: #F7F7F7;
+}
+
+
+/* problem lables design */
+
+.xmodule_display.xmodule_ProblemBlock div.problem div p.answer::before {
+    display: inline;
+    content: "תשובה: ";
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
+    padding: 10px;
+    padding-right: 38px;
+    position: relative;
+    font-size: 1em;
+    line-height: normal;
+    cursor: pointer;
+    background-color: white;
+    width: 80%;
+}
+
+.vert-mod .vert.vert-1:nth-child(odd) .xblock.xblock-student_view.xblock-student_view-problem.xmodule_display.xmodule_CapaModule.xblock-initialized .problems-wrapper:before {
+    position: absolute;
+    content: "";
+    /* display: block; */
+    width: 99%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    /* box-shadow: -50px 120px 4px 10px #555; */
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.9deg);
+    z-index: -1;
+    background-color: #F7F7F7;
+}
+
+.problem-group-label {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .question-description {
+    color: #000;
+    font-size: 100%;
+    display: inline;
+    padding-left: 1%;
+}
+
+/* problems color in studio */
+
+.wrapper-xblock .xblock-render .xblock .xblock-render .xblock .hd-3 {
+    margin-bottom: 10px;
+    font-size: 1.35em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: white;
+}
+
+
+/* LABELS DESIGN */
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label:hover,
+.xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label:hover,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label:hover,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label:hover {
+    border: 2px solid #fcc02e;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
+    border-radius: 9px;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label,
+.xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label {
+    border: 2px solid #142654;
+}
+
+
+/* DISCUSSION TOPIC */
+
+.discussion-module .inline-discussion-topic {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+/* COLORS */
+
+
+/* RIGHT MENU */
+
+.fa-caret-down:before {
+    content: "\f0d7";
+    color: #fcc02eff;
+    font-size: 1.4em;
+    line-height: 0.8em;
+}
+
+.fa-caret-right:before {
+    content: "\f0d9";
+    color: #fcc02eff;
+    font-size: 1.4em;
+    line-height: 0.8em;
+}
+
+
+/* TOP MENU */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-bottom: 3px solid #fcc02e;
+    padding-top: 0px !important;
+}
+
+
+/* PROBLEMS BUTTON */
+
+.btn-brand,
+.modal .inner-wrapper form .submit input[type="submit"],
+.leanModal_box .inner-wrapper form .submit input[type="submit"] {
+    border-color: #fcc02e;
+    background: #fcc02e;
+    color: #00517d;
+}
+
+
+/* RIGHT MENU */
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    position: relative;
+    display: block;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    font-family: 'Assistant', sans-serif;
+    color: #142654;
+}
+
+.btn-link,
+.proctored_exam_status .exam-timer .exam-button-turn-in-exam,
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.course-index .accordion .course-navigation .button-chapter {
+    box-shadow: none !important;
+    background-color: white !important;
+}
+
+.scrollIndicator {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    z-index: 100 !important;
+    width: 100%;
+    background-color: gainsboro;
+}
+
+.progress-barscrollIndicator {
+    height: 10px;
+    background: #fcc02e;
+    width: 0%;
+}
+
+
+/*NEXT BUTTON ANIMATION*/
+
+.sequence-nav-button.button-next {
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    -webkit-animation-delay: 3s;
+    -webkit-animation: pulse 4s infinite;
+    -moz-animation: pulse 3s infinite;
+    -o-animation: pulse 3s infinite;
+    animation: pulse 3s infinite;
+    background-color: #fcc02e !important;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes pulse {
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    40% {
+        box-shadow: 0 0 0 0 rgba(252, 194, 46, 0.863);
+    }
+    70% {
+        box-shadow: 0 0 0 8px #e7ea2400;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes pulse {
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    30% {
+        box-shadow: 0 0 0 0 rgba(252, 194, 46, 0.849);
+    }
+    70% {
+        box-shadow: 0 0 0 8px #eae72400;
+    }
+}
+
+
+/* DRAG AND DROP */
+
+.xblock--drag-and-drop {
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.xblock--drag-and-drop .drag-container .option {
+    padding: 0px !important;
+}
+
+.xblock--drag-and-drop .drag-container .option.specified-width img {
+    width: 90%;
+}
+
+.course-wrapper .course-content .xblock,
+.course-wrapper .courseware-results-wrapper .xblock {
+    overflow-wrap: inherit;
+    word-wrap: inherit;
+    word-break: inherit;
+}
+
+.xblock--drag-and-drop .btn-brand {
+    border-color: #fcc02e;
+    background: #fcc02e;
+    color: #00517d;
+}
+
+.xblock--drag-and-drop .popup {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border: 1px solid #008100;
+    background-color: rgb(0 129 0 / 100%);
+    width: 500px;
+    max-width: 90%;
+    min-height: 50px;
+    max-height: 90%;
+    overflow-y: auto;
+    z-index: 100;
+    /* color: white; */
+    border-radius: 15px;
+}
+
+.popup-content p {
+    color: white;
+    font-weight: bold;
+}
+
+.xblock--drag-and-drop .popup.popup-incorrect {
+    background-color: #ad0d0d;
+    border: 1px solid #ad0d0d;
+}
+
+.xblock--drag-and-drop .problem-title {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background: #142657;
+}
+
+
+/* TABLES */
+
+.xmodule_display.xmodule_HtmlModule table td,
+.xmodule_display.xmodule_HtmlModule table th {
+    margin: 20px 0;
+    padding: 9px;
+    border: 1px solid #c8c8c8;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/*top navigation*/
+
+
+/* every number is the icon number */
+
+
+/* problem icon | text icon | video icon - the number refers to the li */
+
+
+/* 1 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(1) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_Project_Management_HE+2021_1+type@asset+block@menuNum1.svg');
+    width: 22px !important;
+    height: 35px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 2 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(2) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_Project_Management_HE+2021_1+type@asset+block@menuNum2.svg');
+    width: 22px !important;
+    height: 35px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 3 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(3) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_Project_Management_HE+2021_1+type@asset+block@menuNum3.svg');
+    width: 22px !important;
+    height: 35px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 4 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(4) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_Project_Management_HE+2021_1+type@asset+block@menuNum4.svg');
+    width: 24px !important;
+    height: 35px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 5 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(5) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_Project_Management_HE+2021_1+type@asset+block@menuNum5.svg');
+    width: 22px !important;
+    height: 35px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 6 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(6) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_Project_Management_HE+2021_1+type@asset+block@menuNum6.svg');
+    width: 22px !important;
+    height: 50px !important;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+
+/* 7 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(7) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_Project_Management_HE+2021_1+type@asset+block@menuNum7.svg');
+    width: 22px !important;
+    height: 35px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 8 */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(8) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_Project_Management_HE+2021_1+type@asset+block@menuNum8.svg');
+    width: 22px !important;
+    height: 35px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* 9  */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_problem .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_other .icon:before,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li:nth-child(9) button.seq_video .icon:before {
+    content: url('https://courses.campus.gov.il/asset-v1:Labor+GOV_Project_Management_HE+2021_1+type@asset+block@menuNum9.svg');
+    width: 22px !important;
+    height: 35px !important;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+/* RIGHT MENU */
+
+span.group-heading.active {
+    background-color: #142654;
+    color: white !important;
+    border-radius: 10px;
+}
+
+
+/* FEEDBACK */
+.xmodule_display.xmodule_ProblemBlock div.problem .indicator-container .status.incorrect .status-icon::after {
+    color: #b20610;
+    font-size: 1.2em;
+    content: "";
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .indicator-container .status.correct .status-icon::after {
+    color: #61a408;
+    font-size: 1.2em;
+    content: "";
+}
+
+.detailed-solution p {
+    margin-bottom: 0 !important;
+}
+
+.solution-span span {
+    margin: 40px 0 !important;
+}
+
+/* GENERAL ANSWER*/
+.generalAns {
+    border: 2px solid #142653;
+    border-radius: 12px;
+    background-color: #d1ebfa;
+    width: 77%;
+    padding: 20px;
+    margin-right: 30px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+img.generalAnsImg {
+    width: 13%;
+    position: relative;
+    float: right;
+    bottom: 52px;
+    margin-right: -6%;
+   
+}
+
+.generalAns p {
+    padding-right: 15%;
+}
+
+/* CORRECT ANSWER */
+
+.trueAns {
+    border: 2px solid #49DA4D;
+    border-radius: 12px;
+    background-color: #62de6657;
+    width: 77%;
+    padding: 20px;
+    margin-right: 30px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+img.trueAnsImg {
+    width: 13%;
+    position: relative;
+    float: right;
+    bottom: 52px;
+    margin-right: -6%;
+   
+}
+
+.trueAns p {
+    padding-right: 15%;
+}
+
+
+/* INCORRECT ANSWER */
+
+.falseAns {
+    border: 2px solid #FF3F3E;
+    border-radius: 12px;
+    background-color: #ffcc3e41;
+    width: 77%;
+    padding: 20px;
+    margin-right: 30px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+img.falseAnsImg {
+    width: 13%;
+    position: relative;
+    float: right;
+    bottom: 52px;
+    margin-right: -6%;
+
+}
+
+.generalAns ol li,
+.trueAns ol li,
+.falseAns ol li {
+    margin-right: 25px;
+}
+
+.falseAns p {
+    padding-right: 15%;
+}
+
+/* PROBLEM TABLE */
+.xmodule_display.xmodule_ProblemBlock div.problem table tr, .xmodule_display.xmodule_ProblemBlock div.problem table td, .xmodule_display.xmodule_ProblemBlock div.problem table th {
+    vertical-align: middle;
+    direction: rtl !important;
+    text-align: right;
+}
+
+.problem select:not(.forum-nav-filter-main-control):not(.forum-nav-sort-control):not(.forum-nav-filter-cohort-control), .problem .forum-new-post-form .post-field .field-label .field-input select.post-topic {
+    font-size: 15px;
+    padding: 10px 5px 10px 20px !important;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem table tr, 
+.xmodule_display.xmodule_ProblemBlock div.problem table td, 
+.xmodule_display.xmodule_HtmlBlock table td {
+    vertical-align: middle;
+    direction: rtl !important;
+    text-align: right;
+    border: 2px solid #142654 !important;
+    padding: 5px;
+}
+
+.xmodule_display.xmodule_HtmlBlock th, .xmodule_display.xmodule_ProblemBlock div.problem table th {
+    background: #142654 !important;
+    font-weight: bold;
+    color: white !important;
+    border-right: 2px solid white !important;
+    border-top: 2px solid #142654 !important;
+}
+
+.xmodule_display.xmodule_HtmlBlock th:first-child, .xmodule_display.xmodule_ProblemBlock div.problem table th:first-child{
+    border: 2px solid #142654 !important;
+    border-left: 2px solid white !important;
+}
+
+.xmodule_display.xmodule_HtmlBlock th:last-child, .xmodule_display.xmodule_ProblemBlock div.problem table th:last-child {
+    border: 2px solid #142654 !important;
+    border-right: 2px solid white !important;
+}
+
+
+/* TO DO LIST */
+
+.toDoListDiv {
+    padding: 25px 10px 10px 10px;
+    margin-bottom: 40px;
+    margin-top: -40px;
+    margin-right: 10px;
+    background: #fff;
+    border: solid #142654;
+    border-color: #142654;
+    width: 90%;
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+}
+
+.box2 {
+    /*width: 90%;
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);*/
+}
+
+.toDoListDiv img {
+    float: right;
+    margin-left: 10px;
+    width: 7%;
+}
+
+.boxinner {
+    /*margin: 17px;
+    transform: rotate(2deg);
+    padding-bottom: 5px;*/
+    margin: 28px 10px 50px 10px;
+}
+
+.boxinner hr {
+    margin: 17px 65px;
+}
+
+.boxinner p {
+    padding-right: 9%;
+    padding-left: 2%;
+}
+
+
+/* QUESTIONS CHOOS COLOR CHANGE */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:focus+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicetextgroup input:focus+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicegroup input:focus+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicetextgroup input:focus+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:hover+label,
+.xmodule_display.xmodule_ProblemBlock div.problem .choicetextgroup input:hover+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicegroup input:hover+label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_ProblemBlock .choicetextgroup input:hover+label {
+    background-color: #fcc02eff;
+    border: 2px solid #142654;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:checked+label {
+    background-color: #fcc02eff;
+    border: 2px solid #142654;
+}
+
+
+/* QUESTION LABELS PADDING */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label {
+    padding-right: 50px;
+}
+
+
+/* QUESTION SEND, SAVE & VIEW ANSWER BUTTONS */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action {
+    min-height: 20px;
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn {
+    margin-left: 4px;
+    max-width: 110px;
+    text-decoration: none;
+    text-transform: none;
+    border: 1px solid;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .submission-feedback {
+    display: block;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .submit-attempt-container .submit {
+    margin-left: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    float: none;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-buttons-wrapper {
+    display: inline-block;
+    justify-content: flex-end;
+    width: unset;
+    padding-bottom: 20px;
+    float: left !important;
+}
+
+
+
+body .course-content .bookmark-button-wrapper .bookmark-button {
+    color: #072d3f;
+    font-size: 16px;
+    font-weight: 600;
+    float: left;
+    position: relative;
+    bottom: 55px;
+    left: 16px;
+}
+
+/* TOP NAV */
+
+body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-color: #142654;
+}
+
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover {
+    color: #142654 !IMPORTANT;
+    border-bottom: #142654 3px solid !important;
+}
+
+
+/* ------------ THIS PART MAKE THE STICKY MENU --------------*/
+/* --------------------- STARTS HERE -------------------- */
+
+
+#content > div.container{
+    background-color: #f5f5f5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='470' height='235' viewBox='0 0 1600 800'%3E%3Cpath fill='%23ffffff' d='M1102.5 734.8c2.5-1.2 24.8-8.6 25.6-7.5.5.7-3.9 23.8-4.6 24.5C1123.3 752.1 1107.5 739.5 1102.5 734.8zM1226.3 229.1c0-.1-4.9-9.4-7-14.2-.1-.3-.3-1.1-.4-1.6-.1-.4-.3-.7-.6-.9-.3-.2-.6-.1-.8.1l-13.1 12.3c0 0 0 0 0 0-.2.2-.3.5-.4.8 0 .3 0 .7.2 1 .1.1 1.4 2.5 2.1 3.6 2.4 3.7 6.5 12.1 6.5 12.2.2.3.4.5.7.6.3 0 .5-.1.7-.3 0 0 1.8-2.5 2.7-3.6 1.5-1.6 3-3.2 4.6-4.7 1.2-1.2 1.6-1.4 2.1-1.6.5-.3 1.1-.5 2.5-1.9C1226.5 230.4 1226.6 229.6 1226.3 229.1zM33 770.3C33 770.3 33 770.3 33 770.3c0-.7-.5-1.2-1.2-1.2-.1 0-.3 0-.4.1-1.6.2-14.3.1-22.2 0-.3 0-.6.1-.9.4-.2.2-.4.5-.4.9 0 .2 0 4.9.1 5.9l.4 13.6c0 .3.2.6.4.9.2.2.5.3.8.3 0 0 .1 0 .1 0 7.3-.7 14.7-.9 22-.6.3 0 .7-.1.9-.3.2-.2.4-.6.4-.9C32.9 783.3 32.9 776.2 33 770.3z'/%3E%3Cpath fill='%23ffffff' d='M171.1 383.4c1.3-2.5 14.3-22 15.6-21.6.8.3 11.5 21.2 11.5 22.1C198.1 384.2 177.9 384 171.1 383.4zM596.4 711.8c-.1-.1-6.7-8.2-9.7-12.5-.2-.3-.5-1-.7-1.5-.2-.4-.4-.7-.7-.8-.3-.1-.6 0-.8.3L574 712c0 0 0 0 0 0-.2.2-.2.5-.2.9 0 .3.2.7.4.9.1.1 1.8 2.2 2.8 3.1 3.1 3.1 8.8 10.5 8.9 10.6.2.3.5.4.8.4.3 0 .5-.2.6-.5 0 0 1.2-2.8 2-4.1 1.1-1.9 2.3-3.7 3.5-5.5.9-1.4 1.3-1.7 1.7-2 .5-.4 1-.7 2.1-2.4C596.9 713.1 596.8 712.3 596.4 711.8zM727.5 179.9C727.5 179.9 727.5 179.9 727.5 179.9c.6.2 1.3-.2 1.4-.8 0-.1 0-.2 0-.4.2-1.4 2.8-12.6 4.5-19.5.1-.3 0-.6-.2-.8-.2-.3-.5-.4-.8-.5-.2 0-4.7-1.1-5.7-1.3l-13.4-2.7c-.3-.1-.7 0-.9.2-.2.2-.4.4-.5.6 0 0 0 .1 0 .1-.8 6.5-2.2 13.1-3.9 19.4-.1.3 0 .6.2.9.2.3.5.4.8.5C714.8 176.9 721.7 178.5 727.5 179.9zM728.5 178.1c-.1-.1-.2-.2-.4-.2C728.3 177.9 728.4 178 728.5 178.1z'/%3E%3Cg fill='%23FFF'%3E%3Cpath d='M699.6 472.7c-1.5 0-2.8-.8-3.5-2.3-.8-1.9 0-4.2 1.9-5 3.7-1.6 6.8-4.7 8.4-8.5 1.6-3.8 1.7-8.1.2-11.9-.3-.9-.8-1.8-1.2-2.8-.8-1.7-1.8-3.7-2.3-5.9-.9-4.1-.2-8.6 2-12.8 1.7-3.1 4.1-6.1 7.6-9.1 1.6-1.4 4-1.2 5.3.4 1.4 1.6 1.2 4-.4 5.3-2.8 2.5-4.7 4.7-5.9 7-1.4 2.6-1.9 5.3-1.3 7.6.3 1.4 1 2.8 1.7 4.3.5 1.1 1 2.2 1.5 3.3 2.1 5.6 2 12-.3 17.6-2.3 5.5-6.8 10.1-12.3 12.5C700.6 472.6 700.1 472.7 699.6 472.7zM740.4 421.4c1.5-.2 3 .5 3.8 1.9 1.1 1.8.4 4.2-1.4 5.3-3.7 2.1-6.4 5.6-7.6 9.5-1.2 4-.8 8.4 1.1 12.1.4.9 1 1.7 1.6 2.7 1 1.7 2.2 3.5 3 5.7 1.4 4 1.2 8.7-.6 13.2-1.4 3.4-3.5 6.6-6.8 10.1-1.5 1.6-3.9 1.7-5.5.2-1.6-1.4-1.7-3.9-.2-5.4 2.6-2.8 4.3-5.3 5.3-7.7 1.1-2.8 1.3-5.6.5-7.9-.5-1.3-1.3-2.7-2.2-4.1-.6-1-1.3-2.1-1.9-3.2-2.8-5.4-3.4-11.9-1.7-17.8 1.8-5.9 5.8-11 11.2-14C739.4 421.6 739.9 421.4 740.4 421.4zM261.3 590.9c5.7 6.8 9 15.7 9.4 22.4.5 7.3-2.4 16.4-10.2 20.4-3 1.5-6.7 2.2-11.2 2.2-7.9-.1-12.9-2.9-15.4-8.4-2.1-4.7-2.3-11.4 1.8-15.9 3.2-3.5 7.8-4.1 11.2-1.6 1.2.9 1.5 2.7.6 3.9-.9 1.2-2.7 1.5-3.9.6-1.8-1.3-3.6.6-3.8.8-2.4 2.6-2.1 7-.8 9.9 1.5 3.4 4.7 5 10.4 5.1 3.6 0 6.4-.5 8.6-1.6 4.7-2.4 7.7-8.6 7.2-15-.5-7.3-5.3-18.2-13-23.9-4.2-3.1-8.5-4.1-12.9-3.1-3.1.7-6.2 2.4-9.7 5-6.6 5.1-11.7 11.8-14.2 19-2.7 7.7-2.1 15.8 1.9 23.9.7 1.4.1 3.1-1.3 3.7-1.4.7-3.1.1-3.7-1.3-4.6-9.4-5.4-19.2-2.2-28.2 2.9-8.2 8.6-15.9 16.1-21.6 4.1-3.1 8-5.1 11.8-6 6-1.4 12 0 17.5 4C257.6 586.9 259.6 588.8 261.3 590.9z'/%3E%3Ccircle cx='1013.7' cy='153.9' r='7.1'/%3E%3Ccircle cx='1024.3' cy='132.1' r='7.1'/%3E%3Ccircle cx='1037.3' cy='148.9' r='7.1'/%3E%3Cpath d='M1508.7 297.2c-4.8-5.4-9.7-10.8-14.8-16.2 5.6-5.6 11.1-11.5 15.6-18.2 1.2-1.7.7-4.1-1-5.2-1.7-1.2-4.1-.7-5.2 1-4.2 6.2-9.1 11.6-14.5 16.9-4.8-5-9.7-10-14.7-14.9-1.5-1.5-3.9-1.5-5.3 0-1.5 1.5-1.5 3.9 0 5.3 4.9 4.8 9.7 9.8 14.5 14.8-1.1 1.1-2.3 2.2-3.5 3.2-4.1 3.8-8.4 7.8-12.4 12-1.4 1.5-1.4 3.8 0 5.3 0 0 0 0 0 0 1.5 1.4 3.9 1.4 5.3-.1 3.9-4 8.1-7.9 12.1-11.7 1.2-1.1 2.3-2.2 3.5-3.3 4.9 5.3 9.8 10.6 14.6 15.9.1.1.1.1.2.2 1.4 1.4 3.7 1.5 5.2.2C1510 301.2 1510.1 298.8 1508.7 297.2zM327.6 248.6l-.4-2.6c-1.5-11.1-2.2-23.2-2.3-37 0-5.5 0-11.5.2-18.5 0-.7 0-1.5 0-2.3 0-5 0-11.2 3.9-13.5 2.2-1.3 5.1-1 8.5.9 5.7 3.1 13.2 8.7 17.5 14.9 5.5 7.8 7.3 16.9 5 25.7-3.2 12.3-15 31-30 32.1L327.6 248.6zM332.1 179.2c-.2 0-.3 0-.4.1-.1.1-.7.5-1.1 2.7-.3 1.9-.3 4.2-.3 6.3 0 .8 0 1.7 0 2.4-.2 6.9-.2 12.8-.2 18.3.1 12.5.7 23.5 2 33.7 11-2.7 20.4-18.1 23-27.8 1.9-7.2.4-14.8-4.2-21.3l0 0C347 188.1 340 183 335 180.3 333.6 179.5 332.6 179.2 332.1 179.2zM516.3 60.8c-.1 0-.2 0-.4-.1-2.4-.7-4-.9-6.7-.7-.7 0-1.3-.5-1.4-1.2 0-.7.5-1.3 1.2-1.4 3.1-.2 4.9 0 7.6.8.7.2 1.1.9.9 1.6C517.3 60.4 516.8 60.8 516.3 60.8zM506.1 70.5c-.5 0-1-.3-1.2-.8-.8-2.1-1.2-4.3-1.3-6.6 0-.7.5-1.3 1.2-1.3.7 0 1.3.5 1.3 1.2.1 2 .5 3.9 1.1 5.8.2.7-.1 1.4-.8 1.6C506.4 70.5 506.2 70.5 506.1 70.5zM494.1 64.4c-.4 0-.8-.2-1-.5-.4-.6-.3-1.4.2-1.8 1.8-1.4 3.7-2.6 5.8-3.6.6-.3 1.4 0 1.7.6.3.6 0 1.4-.6 1.7-1.9.9-3.7 2-5.3 3.3C494.7 64.3 494.4 64.4 494.1 64.4zM500.5 55.3c-.5 0-.9-.3-1.2-.7-.5-1-1.2-1.9-2.4-3.4-.3-.4-.7-.9-1.1-1.4-.4-.6-.3-1.4.2-1.8.6-.4 1.4-.3 1.8.2.4.5.8 1 1.1 1.4 1.3 1.6 2.1 2.6 2.7 3.9.3.6 0 1.4-.6 1.7C500.9 55.3 500.7 55.3 500.5 55.3zM506.7 55c-.3 0-.5-.1-.8-.2-.6-.4-.7-1.2-.3-1.8 1.2-1.7 2.3-3.4 3.3-5.2.3-.6 1.1-.9 1.7-.5.6.3.9 1.1.5 1.7-1 1.9-2.2 3.8-3.5 5.6C507.4 54.8 507.1 55 506.7 55zM1029.3 382.8c-.1 0-.2 0-.4-.1-2.4-.7-4-.9-6.7-.7-.7 0-1.3-.5-1.4-1.2 0-.7.5-1.3 1.2-1.4 3.1-.2 4.9 0 7.6.8.7.2 1.1.9.9 1.6C1030.3 382.4 1029.8 382.8 1029.3 382.8zM1019.1 392.5c-.5 0-1-.3-1.2-.8-.8-2.1-1.2-4.3-1.3-6.6 0-.7.5-1.3 1.2-1.3.7 0 1.3.5 1.3 1.2.1 2 .5 3.9 1.1 5.8.2.7-.1 1.4-.8 1.6C1019.4 392.5 1019.2 392.5 1019.1 392.5zM1007.1 386.4c-.4 0-.8-.2-1-.5-.4-.6-.3-1.4.2-1.8 1.8-1.4 3.7-2.6 5.8-3.6.6-.3 1.4 0 1.7.6.3.6 0 1.4-.6 1.7-1.9.9-3.7 2-5.3 3.3C1007.7 386.3 1007.4 386.4 1007.1 386.4zM1013.5 377.3c-.5 0-.9-.3-1.2-.7-.5-1-1.2-1.9-2.4-3.4-.3-.4-.7-.9-1.1-1.4-.4-.6-.3-1.4.2-1.8.6-.4 1.4-.3 1.8.2.4.5.8 1 1.1 1.4 1.3 1.6 2.1 2.6 2.7 3.9.3.6 0 1.4-.6 1.7C1013.9 377.3 1013.7 377.3 1013.5 377.3zM1019.7 377c-.3 0-.5-.1-.8-.2-.6-.4-.7-1.2-.3-1.8 1.2-1.7 2.3-3.4 3.3-5.2.3-.6 1.1-.9 1.7-.5.6.3.9 1.1.5 1.7-1 1.9-2.2 3.8-3.5 5.6C1020.4 376.8 1020.1 377 1019.7 377zM1329.7 573.4c-1.4 0-2.9-.2-4.5-.7-8.4-2.7-16.6-12.7-18.7-20-.4-1.4-.7-2.9-.9-4.4-8.1 3.3-15.5 10.6-15.4 21 0 1.5-1.2 2.7-2.7 2.8 0 0 0 0 0 0-1.5 0-2.7-1.2-2.7-2.7-.1-6.7 2.4-12.9 7-18 3.6-4 8.4-7.1 13.7-8.8.5-6.5 3.1-12.9 7.4-17.4 7-7.4 18.2-8.9 27.3-10.1l.7-.1c1.5-.2 2.9.9 3.1 2.3.2 1.5-.9 2.9-2.3 3.1l-.7.1c-8.6 1.2-18.4 2.5-24 8.4-3 3.2-5 7.7-5.7 12.4 7.9-1 17.7 1.3 24.3 5.7 4.3 2.9 7.1 7.8 7.2 12.7.2 4.3-1.7 8.3-5.2 11.1C1335.2 572.4 1332.6 573.4 1329.7 573.4zM1311 546.7c.1 1.5.4 3 .8 4.4 1.7 5.8 8.7 14.2 15.1 16.3 2.8.9 5.1.5 7.2-1.1 2.7-2.1 3.2-4.8 3.1-6.6-.1-3.2-2-6.4-4.8-8.3C1326.7 547.5 1317.7 545.6 1311 546.7z'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    }
+    
+    #content > div.container > div > div > div.wrapper-course-modes {
+        display: none;
+    }
+    
+    #seq_content > div > div.bookmark-button-wrapper {
+        display: none;
+    }
+    
+    #content > div.container > div > div {
+        display:block;
+        position: sticky;
+        top: 0;
+    }
+    
+    #content > div.container > div > div > div.wrapper-course-modes > div {
+        width: 100%!important;
+    }	
+    
+    
+    #seq_content > div.xblock.xblock-student_view.xblock-student_view-vertical.xblock-initialized > h2 {
+        display: none;
+    }
+    
+    #seq_content > div.xblock.xblock-student_view.xblock-student_view-vertical.xblock-initialized > div.vert-mod > div.vert.vert-0 > div.xblock.xblock-student_view.xblock-student_view-html.xmodule_display.xmodule_HtmlModule.xblock-initialized {
+        border: none;
+    }
+
+    #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        left: 30px; /* Place the button 30px from the right */
+        width: 3rem;
+        height: 3rem;
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        color: black; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 50%; /* Rounded corners */
+        font-size: 1rem; /* Increase font size */
+        font-weight: 900;
+    }
+    
+    #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+    }
+    
+    #course-content > header > div > nav > div > div > span.nav-item.nav-item-sequence{
+        display: none;
+    }
+    
+    
+    #course-content > header > div > nav > div > div > span:nth-child(4) {
+        display: none!important;
+    }
+    /* הצהרה תיעוד */
+    #problem_883c65f250db477a8f0a631cd1acecb8 {
+        background: #E9F8EF;
+        padding: 10px 20px 0 20px;
+        border-radius: 5px;
+    }
+    
+    #block-v1\3a EDU\2b EDU020\2b 2_2018\2b type\40 problem\2b block\40 883c65f250db477a8f0a631cd1acecb8-problem-progress {
+        display: none;
+    }
+    
+    #problem_883c65f250db477a8f0a631cd1acecb8 > div.problem > div.action > div.submit-attempt-container > button {
+        width: 100%!important;
+    }
+    
+    #problem_883c65f250db477a8f0a631cd1acecb8 > div.problem > div.notification.success.notification-submit {
+        display: none;
+    }
+    
+    #problem_883c65f250db477a8f0a631cd1acecb8 > div.problem > div.action > div.problem-action-buttons-wrapper {
+        display: none;
+    }
+    
+    /* הצהרה תכנון */
+    
+    #problem_e48c67493542427485721a46986dcb52 {
+        background: #E9F8EF;
+        padding: 10px 20px 0 20px;
+        border-radius: 5px;
+    }
+    
+    #block-v1\3a EDU\2b EDU020\2b 2_2018\2b type\40 problem\2b block\40 e48c67493542427485721a46986dcb52-problem-progress {
+        display: none;
+    }
+    
+    #problem_e48c67493542427485721a46986dcb52 > div.problem > div.action > div.submit-attempt-container > button {
+        width: 100%!important;
+    }
+    
+    #problem_e48c67493542427485721a46986dcb52 > div.problem > div.notification.success.notification-submit {
+        display: none;
+    }
+    
+    #problem_e48c67493542427485721a46986dcb52 > div.problem > div.action > div.problem-action-buttons-wrapper {
+        display: none;
+    }
+    
+    /* הצהרה רפלקציה */
+    
+    #problem_98ed3d86037c464f899d85b3cc2256ab {
+        background: #E9F8EF;
+        padding: 10px 20px 0 20px;
+        border-radius: 5px;
+    }
+    
+    #block-v1\3a EDU\2b EDU020\2b 2_2018\2b type\40 problem\2b block\40 98ed3d86037c464f899d85b3cc2256ab-problem-progress {
+        display: none;
+    }
+    
+    #problem_98ed3d86037c464f899d85b3cc2256ab > div.problem > div.action > div.submit-attempt-container > button {
+        width: 100%!important;
+    }
+    
+    #problem_98ed3d86037c464f899d85b3cc2256ab > div.problem > div.notification.success.notification-submit {
+        display: none;
+    }
+    
+    #problem_98ed3d86037c464f899d85b3cc2256ab > div.problem > div.action > div.problem-action-buttons-wrapper {
+        display: none;
+    }
+    
+    /* הצהרה תג דיגיטלי */
+    
+    #problem_3d8a9a508444413092a7dacc4733d53c {
+        background: #E9F8EF;
+        padding: 10px 20px 0 20px;
+        border-radius: 5px;
+    }
+    
+    #block-v1\3a EDU\2b EDU020\2b 2_2018\2b type\40 problem\2b block\40 3d8a9a508444413092a7dacc4733d53c-problem-progress {
+        display: none;
+    }
+    
+    #problem_3d8a9a508444413092a7dacc4733d53c > div.problem > div.action > div.submit-attempt-container > button {
+        width: 100%!important;
+    }
+    
+    #problem_3d8a9a508444413092a7dacc4733d53c > div.problem > div.notification.success.notification-submit {
+        display: none;
+    }
+    
+    #problem_3d8a9a508444413092a7dacc4733d53c > div.problem > div.action > div.problem-action-buttons-wrapper {
+        display: none;
+    }
+
+/* --------------------- ENDS HERE -------------------- */
+
+nav.course-navigation {
+    margin-top: 20px !important;
+    padding-top: 3px !important;
+} 
