@@ -314,34 +314,40 @@ margin-top:30px !important;
 
 
 .textHeadline:after {
-border-radius: 77px;
     background-color: white;
+    border-radius: 77px;
     position: absolute;
     content: "";
-    width: 3%;
-    height: 18%;
-    top: 51px;
-    left: 11px;
+    width: 5%;
+    height: 30%;
+    top: 41px;
+    left: 257px;
     transform: rotate(1.5deg);
     z-index: 0;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
 }
 
 .textHeadline:before {
-    border: 2px solid #3eb1c7;
+    background-color: white;
     border-radius: 77px;
     position: absolute;
     content: "";
-    width: 13%;
-    height: 70%;
-    top: 31px;
-    left: -22px;
+    width: 5%;
+    height: 30%;
+    top: 41px;
+    left: 257px;
     transform: rotate(1.5deg);
     z-index: 0;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
 }
 
-h4.textHeadlineNoLine{
+.textHeadline{
+    display: inline;
+    border-bottom: 3px solid #fffefe;
+}
+
+
+h4.textHeadlineNoLine {
     display: inline;
     border-bottom: 3px solid #fffefe;
 }
@@ -355,7 +361,6 @@ h4.textHeadlineNoLine:before {
     height: 29%;
     top: 42px;
     left: -11px;
-    transform: rotate(1.5deg);
     z-index: 0;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
 }
