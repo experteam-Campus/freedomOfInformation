@@ -1543,6 +1543,12 @@ img.falseAnsImg {
     border:none;
 }
 
+
+.xmodule_display.xmodule_ProblemBlock div.problem button.btn-brand:hover {
+    background-color: #8ebfe7;
+}
+
+
 .xmodule_display.xmodule_ProblemBlock div.problem .action .submission-feedback {
     display: block;
 }
