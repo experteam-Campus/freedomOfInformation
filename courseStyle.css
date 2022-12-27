@@ -151,8 +151,20 @@ a,
 
 .content-wrapper .page-header {
     border-bottom: none;
+    background-color: #282f39;
+}
+i#fullscreen {
+    fill: white;
 }
 
+body .breadcrumbs .nav-item a {
+    color: #ffffff;
+}
+
+.fa-angle-right:before {
+    content: "\f105";
+    color: white;
+}
 
 /* SHADOW UNDER VIDEO COMPONENT */
 
