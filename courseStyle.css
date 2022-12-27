@@ -65,6 +65,9 @@ span,
 .wrapper-course-material .course-tabs li a:visited,
 .rtl .course-index .accordion .course-navigation .button-chapter .group-heading {
     font-family: 'Assistant', sans-serif;
+    border-radius: 0 !important;
+    background-color:#114573 !important;
+   color: white;
 }
 
 
