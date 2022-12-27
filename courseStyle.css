@@ -1083,7 +1083,14 @@ color: white;
 
 
 /* DRAG AND DROP */
-
+.xblock--drag-and-drop .title1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    margin: 10px 0;
+    margin-top: 20px;
+}
 
 .xblock--drag-and-drop .drag-container {
     box-sizing: border-box;
