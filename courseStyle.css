@@ -51,10 +51,12 @@ label {
     font-family: 'Assistant', sans-serif;
 }
 
-.vert{
+.vert p{
 color:white !important;
 }
-
+.vert {
+border-bottom:none !important;
+}
 
 a,
 li,
