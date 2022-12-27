@@ -1417,9 +1417,9 @@ img.falseAnsImg {
     margin-bottom: 40px;
     margin-top: -40px;
     margin-right: 10px;
-    background: #fff;
+    /*background: #fff;
     border: solid #142654;
-    border-color: #142654;
+    border-color: #142654;*/
     width: 90%;
     border-width: 3px 3px 5px 5px;
     border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
