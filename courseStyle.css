@@ -26,7 +26,7 @@ main {
 
 //background
 .window-wrap {
-    background-color: #282f39 !important;
+    background: #282f39 !important;
 }
 
 div#content {
@@ -39,7 +39,7 @@ div#content {
 
 
 
-
+main,
 body,
 h1,
 h2,
@@ -53,10 +53,12 @@ label {
     font-family: 'Assistant', sans-serif;
     color: black;
  
-    color:white !important;
+ 
 }
 
-
+.vert{
+    color:white !important;   
+}
 
 
 a,
