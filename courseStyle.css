@@ -314,14 +314,14 @@ margin-top:30px !important;
 
 
 .textHeadline:after {
-    border-radius: 77px;
+border-radius: 77px;
     background-color: white;
     position: absolute;
     content: "";
     width: 3%;
     height: 18%;
-    top: -25px;
-    left: 247px;
+    top: 51px;
+    left: 11px;
     transform: rotate(1.5deg);
     z-index: 0;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
@@ -334,8 +334,8 @@ margin-top:30px !important;
     content: "";
     width: 13%;
     height: 70%;
-    top: -23px;
-    left: 239px;
+    top: 31px;
+    left: -22px;
     transform: rotate(1.5deg);
     z-index: 0;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
