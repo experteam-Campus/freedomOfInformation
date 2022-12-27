@@ -16,6 +16,21 @@
      background-color: #282f39 !important;
 }
 
+body .wrapper-course-material .course-material .course-tabs .tab a.active {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+body .wrapper-course-material .course-material .course-tabs .tab a:hover {
+    opacity: .8;
+    color: #8ebfe7;
+    border-bottom-color: #8ebfe7;
+}
+
+body .wrapper-course-material .course-material .course-tabs .tab a {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
 
 /*buttons*/
 
