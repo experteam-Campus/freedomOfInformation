@@ -7,7 +7,7 @@
 }
 
 .course-content{
-
+ color:white;
      background-color: #282f39;
 }
 
@@ -33,6 +33,7 @@ main {
 
 div#content {
     background-color: #282f39;
+    color:white;
 }
 
 .course-wrapper {
@@ -58,9 +59,7 @@ label {
  
 }
 
-.vert{
-    color:white !important;   
-}
+
 
 
 a,
