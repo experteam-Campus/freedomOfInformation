@@ -17,9 +17,9 @@ main {
     background-color: #282f39 !important;
 }
 
-/*div#content {
+div#content {
     background-color: #282f39;
-}*/
+}
 
 .course-wrapper {
     background-color: #282f39 !important;
@@ -344,14 +344,14 @@ margin-top:30px !important;
 .textHeadline{
     display: inline;
     border-bottom: 3px solid #fffefe;
-    border-radius:none;
+    border-radius:unset;
 }
 
 
 h4.textHeadlineNoLine {
     display: inline;
     border-bottom: 3px solid #fffefe;
-     border-radius:none;
+     border-radius:unset;
 }
 
 h4.textHeadlineNoLine:before {
