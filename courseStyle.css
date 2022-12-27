@@ -1084,6 +1084,16 @@ color: white;
 
 /* DRAG AND DROP */
 
+
+.xblock--drag-and-drop .drag-container {
+    box-sizing: border-box;
+    width: auto;
+    padding: 1%;
+     background-color: none !important; 
+    position: relative;
+}
+
+
 .xblock--drag-and-drop {
     width: auto;
     max-width: 100%;
