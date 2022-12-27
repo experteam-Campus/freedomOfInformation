@@ -31,14 +31,6 @@ main {
     background: #282f39 !important;
 }
 
-div#content {
-    background-color: #282f39;
-    color:white;
-}
-
-.course-wrapper {
-    background-color: #282f39 !important;
-}
 
 
 
@@ -55,11 +47,13 @@ label {
     text-align: right;
     font-family: 'Assistant', sans-serif;
     color: black;
- 
+   background-color: #282f39 !important;
  
 }
 
-
+.vert{
+color:white !important;
+}
 
 
 a,
@@ -73,7 +67,8 @@ span,
 
 
 /* LINE BETWEEN COMPONENTS - KOA UPDATE */
-.course-wrapper .course-content .vert-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
+.course-wrapper .course-content .
+-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
     border-bottom: none;
     margin-bottom: 0px;
     padding: 0 0;
