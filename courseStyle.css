@@ -1515,6 +1515,7 @@ img.falseAnsImg {
 
 .xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label {
     padding-right: 50px;
+    color:white;
 }
 
 
@@ -1535,6 +1536,11 @@ img.falseAnsImg {
     text-decoration: none;
     text-transform: none;
     border: 1px solid;
+}
+
+.xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default {
+    background: #3171ad;
+    border:none;
 }
 
 .xmodule_display.xmodule_ProblemBlock div.problem .action .submission-feedback {
