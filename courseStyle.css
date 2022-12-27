@@ -969,11 +969,14 @@ body.view-in-course .static_tab_wrapper {
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a:hover, .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item div.info-wrapper section.handouts ol li div.hitarea:hover+h4, div.info-wrapper section.handouts ol li .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item div.hitarea:hover+h4, .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item div.info-wrapper section.handouts ol li div.hitarea:focus+h4, div.info-wrapper section.handouts ol li .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item div.hitarea:focus+h4, .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a:focus
 {
 
-color: #313131;
+color: white;
     background: #3171ad;
 }
 
-
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active a {
+    background: #3171ad;
+    color:white;
+}
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     position: relative;
