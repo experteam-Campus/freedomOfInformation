@@ -11,8 +11,9 @@
      background-color: #282f39;
 }
 
-main {
+#main {
     font-size: 110%;
+     background-color: #282f39 !important;
 }
 
 
