@@ -925,14 +925,14 @@ body.view-in-course .static_tab_wrapper {
 
 .fa-caret-down:before {
     content: "\f0d7";
-    color: #fcc02eff;
+    color: #f8981d;
     font-size: 1.4em;
     line-height: 0.8em;
 }
 
 .fa-caret-right:before {
     content: "\f0d9";
-    color: #fcc02eff;
+    color: #f8981d;
     font-size: 1.4em;
     line-height: 0.8em;
 }
