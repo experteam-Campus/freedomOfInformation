@@ -6,11 +6,13 @@
     font-family: 'Assistant', sans-serif;
 }
 
+.course-content{
 
+     background-color: #282f39;
+}
 
 main {
     font-size: 110%;
-     background-color: #282f39;
 }
 
 
@@ -39,7 +41,7 @@ div#content {
 
 
 
-main,
+#main,
 body,
 h1,
 h2,
