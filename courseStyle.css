@@ -14,7 +14,7 @@ main {
 }
 
 
-//buttons
+/*buttons*/
 
 .xmodule_display.xmodule_SequenceModule .sequence-bottom .sequence-nav-button {
     position: relative;
@@ -24,7 +24,7 @@ main {
     min-height: 75px;
 }
 
-//background
+/*background*/
 .window-wrap {
     background: #282f39 !important;
 }
