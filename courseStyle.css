@@ -30,7 +30,11 @@ body .wrapper-course-material .course-material .course-tabs .tab a {
     color: #ffffff;
     border-bottom-color: #ffffff;
 }
-
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
+    color: #fff;
+    background-color: #327fb0;
+    border: none;
+}
 
 /*buttons*/
 
@@ -1627,7 +1631,13 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 /* TOP NAV */
 
 body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
-    border-color: #142654;
+    border-color: #ff9600;
+    background-color: #3070ab;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button {
+    background-color: #5d9dd6;
+    border: none;
 }
 
 .xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover {
