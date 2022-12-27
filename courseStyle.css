@@ -509,12 +509,12 @@ h4.textHeadlineNoLine:before {
     font-family: 'Assistant', sans-serif;
     padding: 6px 14px;
     font-weight: 700 !important;
-    color: white;
+    color: #282f39 !important;
     margin-top: -47px;
     border-radius: 10px;
     display: inline;
     z-index: 1;
-    background: #142657;
+    background: #8ebfe7;
 }
 
 /* .hd.hd-3:before {
