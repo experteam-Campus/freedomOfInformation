@@ -19,13 +19,13 @@
 
 /*buttons*/
 
-.xmodule_display.xmodule_SequenceModule .sequence-bottom .sequence-nav-button {
+/*.xmodule_display.xmodule_SequenceModule .sequence-bottom .sequence-nav-button {
     position: relative;
     min-width: 72px;
     max-width: 378px;
     border-radius: 68%;
     min-height: 75px;
-}
+}*/
 
 /*background*/
 .window-wrap {
