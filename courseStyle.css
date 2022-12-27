@@ -542,6 +542,7 @@ h4.textHeadlineNoLine:before {
     display: inline;
     z-index: 1;
     background: #5d9dd6;
+    color:white;
 }
 
 .tirgulHeadline:before {
