@@ -684,6 +684,20 @@ body.view-in-course .static_tab_wrapper {
 
 /* CENTER EVERY IMG INSIDE textDiv */
 
+.greyBG img{
+    max-width: 11% !important;
+    padding: 16px !important;
+
+}
+.greyBG p{
+   color: rgb(40 47 57) !important;
+    padding: 16px !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+   
+
+}
+
 .textDiv img {
     display: block;
     margin-left: auto !important;
