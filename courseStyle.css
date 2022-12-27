@@ -6,6 +6,8 @@
     font-family: 'Assistant', sans-serif;
 }
 
+
+
 main {
     font-size: 110%;
        background-color: #282f39;
@@ -916,6 +918,10 @@ body.view-in-course .static_tab_wrapper {
 
 
 /* RIGHT MENU */
+
+.chapter-menu.is-open {
+    background-color: #8ebfe7 !important;
+}
 
 .fa-caret-down:before {
     content: "\f0d7";
