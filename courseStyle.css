@@ -919,6 +919,12 @@ body.view-in-course .static_tab_wrapper {
 
 /* RIGHT MENU */
 
+
+body .course-index .accordion .course-navigation .button-chapter.active .group-heading {
+    background-color: #114573!important;
+}
+
+
 .chapter-menu.is-open {
     background-color: #8ebfe7 !important;
 }
