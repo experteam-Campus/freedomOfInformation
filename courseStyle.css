@@ -1266,17 +1266,18 @@ button.unbutton.btn-link.keyboard-help-button {
 }
 
 .xblock--drag-and-drop .problem-title {
-    font-size: 1.8em !important;
+font-size: 1.5em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
     padding: 6px 14px;
     font-weight: 700 !important;
-    color: #282f39;
+    color: #282f39 !important;
     margin-top: -47px;
-    border-radius: 10px;
+    border-radius: 16px 0px 0px 16px;
     display: inline;
     z-index: 1;
+    left: 26px;
     background: #8ebfe7;
 }
 
