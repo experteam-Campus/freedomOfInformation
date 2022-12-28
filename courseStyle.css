@@ -641,10 +641,11 @@ body.view-in-course .static_tab_wrapper {
 }
 
 .textDiv.greyBG {
-    background-color: white;
-    padding: 15px 15px 1px 15px;
+   background-color: #282f39;
+    padding: 15px 15px 15px 15px;
     border-radius: 12px;
-    display:flex;
+    display: flex;
+    border: 3px solid #3baabf;
 }
 
 
@@ -654,7 +655,7 @@ body.view-in-course .static_tab_wrapper {
 
 }
 .greyBG p{
-   color: rgb(40 47 57) !important;
+   color: white !important;
     padding: 16px !important;
     margin-top: auto !important;
     margin-bottom: auto !important;
