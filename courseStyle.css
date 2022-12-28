@@ -1923,3 +1923,11 @@ nav.course-navigation {
     margin-top: 20px !important;
     padding-top: 3px !important;
 } 
+
+
+
+article.xblock-render .problems-wrapper {
+background-color: white;
+color: black;
+}
+
