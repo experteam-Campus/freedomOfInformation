@@ -1711,7 +1711,10 @@ body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
     border-bottom: #3cabc4 3px solid !important;
     background-color: white !important;
 }
-
+button.btn-link.new-post-btn {
+    background-color: #3cabc4;
+    color: white;
+}
 
 /* ------------ THIS PART MAKE THE STICKY MENU --------------*/
 /* --------------------- STARTS HERE -------------------- */
