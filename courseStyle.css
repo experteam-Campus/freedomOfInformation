@@ -1175,6 +1175,11 @@ p.accordion-display-name {
 
 
 /* DRAG AND DROP */
+button.unbutton.btn-link.keyboard-help-button {
+    color: white;
+    margin-top: 24px;
+}
+
 .xblock--drag-and-drop .title1 {
     color: #ffffff;
     text-transform: uppercase;
@@ -1188,10 +1193,12 @@ p.accordion-display-name {
     box-sizing: border-box;
     width: auto;
     padding: 1%;
-     background-color: none !important; 
+    background-color: #282f39 !important;
     position: relative;
 }
-
+.xblock--drag-and-drop .item-bank{
+    background-color: white !important;
+}
 
 .xblock--drag-and-drop {
     width: auto;
@@ -1201,7 +1208,19 @@ p.accordion-display-name {
 }
 
 .xblock--drag-and-drop .drag-container .option {
-    padding: 0px !important;
+    padding: 6px !important;
+    background-color: #f8981d;
+}
+
+.xblock--drag-and-drop .drag-container .option .item-content {
+    display: inline-block;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    background-color: #f8981d;
+    color: #282f39;
+    font-weight: bold;
+   
 }
 
 .xblock--drag-and-drop .drag-container .option.specified-width img {
@@ -1254,7 +1273,7 @@ p.accordion-display-name {
     font-family: 'Assistant', sans-serif;
     padding: 6px 14px;
     font-weight: 700 !important;
-    color: white;
+    color: #282f39;
     margin-top: -47px;
     border-radius: 10px;
     display: inline;
