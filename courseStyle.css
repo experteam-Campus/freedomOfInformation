@@ -992,7 +992,7 @@ body .course-index .accordion .course-navigation .button-chapter.active .group-h
 
 
 .chapter-menu.is-open {
-    background-color: #8ebfe7 !important;
+  background-color: #282f39 !important;
 }
 
 .fa-caret-down:before {
@@ -1054,13 +1054,17 @@ color: white;
     color:white;
 }
 
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item{
+
+}
+
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     position: relative;
     display: block;
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
     font-family: 'Assistant', sans-serif;
-    color: #142654;
+    color: #white;
 }
 
 .btn-link,
