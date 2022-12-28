@@ -1046,9 +1046,10 @@ background-color: #3070ab!important;
 .btn-brand,
 .modal .inner-wrapper form .submit input[type="submit"],
 .leanModal_box .inner-wrapper form .submit input[type="submit"] {
-    border-color: #fcc02e;
-    background: #fcc02e;
-    color: #00517d;
+border-color: #f8981d;
+    background: #f8981d;
+    color: #2e353e;
+    font-weight: bold;
 }
 
 
@@ -1614,9 +1615,10 @@ img.falseAnsImg {
     border: 2px solid #142654;
 }
 
+
 .xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:checked+label {
-    background-color: #fcc02eff;
-    border: 2px solid #142654;
+    background-color: #f8981d;
+    border: 2px solid #2e353e;
 }
 
 
@@ -1667,6 +1669,7 @@ img.falseAnsImg {
     display: inline-block;
     white-space: nowrap;
     float: none;
+    background-color: #f8981d;
 }
 
 .xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-buttons-wrapper {
