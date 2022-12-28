@@ -1716,6 +1716,17 @@ button.btn-link.new-post-btn {
     color: white;
 }
 
+.discussion.inline-discussion .inline-threads {
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background-color: white;
+ 
+}
+
+.discussion.inline-discussion .inline-threads p{
+color: #282f39 !important; 
+}
+
 /* ------------ THIS PART MAKE THE STICKY MENU --------------*/
 /* --------------------- STARTS HERE -------------------- */
 
