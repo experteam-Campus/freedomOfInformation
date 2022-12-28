@@ -1050,7 +1050,7 @@ body .course-index .accordion .course-navigation .button-chapter.active .group-h
 {
 
 color: white;
-    background: #3171ad;
+    background: #282f39;
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active a {
@@ -1081,6 +1081,7 @@ color: white;
 .course-index .accordion .course-navigation .button-chapter {
     background-color: #2e353e !important;
     color: white !important;
+    background-image: none !important;
     box-shadow: 35px 8px 32px 1px rgb(0 0 0 / 16%) !important;
 }
 
