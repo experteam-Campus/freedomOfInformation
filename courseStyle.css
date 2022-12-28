@@ -31,8 +31,8 @@ body .wrapper-course-material .course-material .course-tabs .tab a {
     border-bottom-color: #ffffff;
 }
 .xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
-    color: #fff;
-    background-color: #327fb0;
+    color: #282f39;
+    background-color: #ffffff;
     border: none;
 }
 
@@ -1036,7 +1036,7 @@ background-color: #3070ab!important;
 .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
 .xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
 .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
-    border-bottom: 3px solid #fcc02e;
+    border-bottom: 3px solid #3cabc4;
     padding-top: 0px !important;
 }
 
@@ -1702,8 +1702,9 @@ body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
 }
 
 .xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover {
-color: #3cabc4 !IMPORTANT;
+    color: #3cabc4 !IMPORTANT;
     border-bottom: #3cabc4 3px solid !important;
+    background-color: white !important;
 }
 
 
