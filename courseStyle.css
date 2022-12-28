@@ -946,6 +946,13 @@ color:white;
 }
 
 
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button:hover, .xmodule_display.xmodule_CourseModule .sequence-nav ol li button:hover, .xmodule_display.xmodule_SectionModule .sequence-nav ol li button:hover {
+    background-image: none;
+    box-shadow: none;
+}
+
+
+
 /* DISCUSSION TOPIC */
 
 .discussion-module .inline-discussion-topic {
@@ -1684,8 +1691,8 @@ body .course-content .bookmark-button-wrapper .bookmark-button {
 /* TOP NAV */
 
 body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
-    border-color: #ff9600;
-    background-color: #3070ab;
+    border-color: #3cabc4;
+    background-color: #ffffff;
 }
 
 .xmodule_display.xmodule_SequenceModule .sequence-nav ol li button {
@@ -1694,8 +1701,8 @@ body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
 }
 
 .xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover {
-    color: #142654 !IMPORTANT;
-    border-bottom: #142654 3px solid !important;
+color: #3cabc4 !IMPORTANT;
+    border-bottom: #3cabc4 3px solid !important;
 }
 
 
