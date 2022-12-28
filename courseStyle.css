@@ -31,8 +31,8 @@ body .wrapper-course-material .course-material .course-tabs .tab a {
     border-bottom-color: #ffffff;
 }
 .xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button {
-    color: #282f39;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #3cabc4;
     border: none;
 }
 
