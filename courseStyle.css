@@ -1656,7 +1656,9 @@ img.falseAnsImg {
 
 
 .xmodule_display.xmodule_ProblemBlock div.problem button.btn-brand:hover {
-    background-color: #8ebfe7;
+    background-color: #8fc1e9 !important;
+    color: #2e353e;
+    text-shadow: none;
 }
 
 
