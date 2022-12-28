@@ -1043,7 +1043,12 @@ body .course-index .accordion .course-navigation .button-chapter.active .group-h
 /* RIGHT MENU */
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active a {
     font-weight: 700;
-    background-color: #3171ad !important;
+background-color: #282f39 !important;
+}
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item.active a p {
+    font-weight: 700;
+color: #ff9600 !important;
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a:hover, .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item div.info-wrapper section.handouts ol li div.hitarea:hover+h4, div.info-wrapper section.handouts ol li .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item div.hitarea:hover+h4, .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item div.info-wrapper section.handouts ol li div.hitarea:focus+h4, div.info-wrapper section.handouts ol li .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item div.hitarea:focus+h4, .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a:focus
