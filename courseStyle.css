@@ -828,7 +828,7 @@ body.view-in-course .static_tab_wrapper {
 .course-wrapper .course-content .vert-mod .vert>.xblock-student_view, .course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
     border-bottom: none;
     margin-bottom: 15px;
-    padding: 40px;
+   /* padding: 40px;*/
 }
 
 .problems-wrapper {
