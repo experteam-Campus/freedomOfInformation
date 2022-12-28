@@ -989,12 +989,16 @@ color:white;
     margin-top: 12px;
 }
 body .course-index .accordion .course-navigation .button-chapter.active .group-heading {
-    background-color: #3070ab!important;
-    color: white !important;
+background-color: #3db1c7!important;
+    color: #322f39 !important;
     font-weight: bold;
 }
 
-
+body .course-index .accordion .course-navigation .button-chapter:hover {
+background-color: #3db1c7!important;
+    color: #322f39 !important;
+    font-weight: bold;
+}
 .chapter-menu.is-open {
   background-color: #282f39 !important;
 }
