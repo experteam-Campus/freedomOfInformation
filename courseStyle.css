@@ -958,7 +958,34 @@ color:white;
 
 /* RIGHT MENU */
 
+.course-index .accordion .course-navigation .chapter-content-container.is-open {
+    border-bottom: none;
+    border-right: 1px dashed #00B4D8;
+    margin-right: 25px;
+}
 
+.menu-item:before {
+    content: " ";
+    width: 42px;
+    height: 23px;
+    background-image: url(https://courses.campus.gov.il/asset-v1:MoJ+GOV_InformationFreedom_HE+2022_1+type@asset+block@circle_outline.svg);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: 1px 1px;
+    right: -6px;
+    margin-top: 12px;
+}
+
+.menu-item.active:before {
+    content: " ";
+    background-image: url(https://courses.campus.gov.il/asset-v1:MoJ+GOV_InformationFreedom_HE+2022_1+type@asset+block@circle_filled.svg);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -6px;
+    margin-top: 12px;
+}
 body .course-index .accordion .course-navigation .button-chapter.active .group-heading {
     background-color: #114573!important;
 }
