@@ -990,7 +990,7 @@ color:white;
 }
 body .course-index .accordion .course-navigation .button-chapter.active .group-heading {
     background-color: #3070ab!important;
-    color: white;
+    color: white !important;
     font-weight: bold;
 }
 
