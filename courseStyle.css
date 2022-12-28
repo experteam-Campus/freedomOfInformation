@@ -534,7 +534,7 @@ h4.textHeadlineNoLine:before {
 /* NEW 01/07/22 */
 
 .hd.hd-3 {
-    font-size: 1.5em !important;
+font-size: 1.5em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
@@ -542,9 +542,10 @@ h4.textHeadlineNoLine:before {
     font-weight: 700 !important;
     color: #282f39 !important;
     margin-top: -47px;
-    border-radius: 10px;
+    border-radius: 16px 0px 0px 16px;
     display: inline;
     z-index: 1;
+    left: 26px;
     background: #8ebfe7;
 }
 
@@ -831,14 +832,15 @@ body.view-in-course .static_tab_wrapper {
 }
 
 .problems-wrapper {
-    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
-    background-color: #282f39;
+box-shadow: 0px 0px 90px 1px rgb(0 0 0 / 30%);
+    background-color: #2e353e;
     padding: 3%;
     position: relative;
     z-index: 1;
     margin: 0px -12px 0px;
     height: fit-content;
     display: flow-root;
+    border-radius: 15px;
 }
 
 .problems-wrapper label{
