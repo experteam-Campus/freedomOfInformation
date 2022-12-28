@@ -960,7 +960,7 @@ color:white;
 
 .course-index .accordion .course-navigation .chapter-content-container.is-open {
     border-bottom: none;
-    border-right: 1px dashed #00B4D8;
+    border-right: 1px solid white;
     margin-right: 25px;
 }
 
