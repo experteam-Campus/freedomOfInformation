@@ -1678,9 +1678,17 @@ img.falseAnsImg {
 }
 
 .xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default {
-    background: #3171ad;
-    border:none;
+    background: #3db0c6;
+    border: none;
+    color: white;
 }
+
+
+.xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default:hover {
+    background: #fffefe;
+    color: #3db0c6;
+}
+
 
 
 .xmodule_display.xmodule_ProblemBlock div.problem button.btn-brand:hover {
