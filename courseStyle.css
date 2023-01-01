@@ -1969,3 +1969,14 @@ color: black;
     width: 10px;
 }
 
+
+.xmodule_display.xmodule_ProblemBlock div.problem .notification.general .icon {
+    margin-left: 15px;
+    color: #93672d;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .notification.general {
+    border-top: 3px solid #93672d;
+}
+
+
