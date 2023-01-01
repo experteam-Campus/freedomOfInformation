@@ -1931,3 +1931,33 @@ background-color: white;
 color: black;
 }
 
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip {
+    text-align: right;
+    margin-top: 12px;
+    background: #fff;
+    color: #000;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.41575em;
+    right: 0;
+    padding: 6px;
+    position: absolute;
+    top: 48px;
+    /* text-shadow: 0 -1px 0 #000; */
+    white-space: pre;
+    pointer-events: none;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .sequence-tooltip::after {
+    transform: rotate(45deg);
+    left: 18px;
+    background: #fff;
+    content: " ";
+    display: block;
+    height: 10px;
+    right: 18px;
+    position: absolute;
+    top: -5px;
+    width: 10px;
+}
+
