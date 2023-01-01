@@ -1988,3 +1988,12 @@ color: black;
     text-decoration: none;
     border-bottom: 4px hidden white;
 }
+
+.xmodule_display.xmodule_ProblemBlock div.problem .notification.general {
+    border-top: 3px solid #f8981d;
+}
+.xmodule_display.xmodule_ProblemBlock div.problem .notification.general .icon {
+    margin-left: 15px;
+    color: #f8981d;
+}
+
