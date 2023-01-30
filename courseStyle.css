@@ -338,7 +338,8 @@ h3.maintextHeadline:after {
 /* VIDEO AND REGULAR TEXT HEADLINE */
  .xmodule_VideoBlock,  h3.hd.hd-2{
 
-margin-top:30px !important;
+/*margin-top:30px !important;*/
+margin-top:0px !important;
 }
 
 
