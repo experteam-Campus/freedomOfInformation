@@ -89,8 +89,8 @@ span,
    color: white;*/
 }
 
-.studio-xblock-wrapper {
-    color: black;
+.studio-xblock-wrapper li {
+    color: black !important;
 }
 
 .textDiv ol li, .textDiv ul li {
