@@ -89,6 +89,20 @@ span,
    color: white;*/
 }
 
+.studio-xblock-wrapper {
+    color: black;
+}
+
+.textDiv ol li, .textDiv ul li {
+    color: white;
+    margin-right: 3%;
+}
+
+.textDiv ol li::marker, .textDiv ul li::marker {
+    color: #f8981d;
+    font-weight: bold;
+}
+
 
 /* LINE BETWEEN COMPONENTS - KOA UPDATE */
 .course-wrapper .course-content .
