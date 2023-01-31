@@ -557,9 +557,11 @@ font-size: 1.5em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    padding: 6px 14px;
+    /*padding: 6px 14px;*/
+    padding: 1px 14px 4px 29px;
     font-weight: 700 !important;
-    color: #282f39 !important;
+    /*color: #282f39 !important;*/
+    color: white;
     margin-top: -47px;
     border-radius: 16px 0px 0px 16px;
     display: inline;
