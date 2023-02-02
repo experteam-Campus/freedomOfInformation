@@ -404,7 +404,9 @@ h3.maintextHeadline:after {
 margin-top:0px !important;
 }
 
-
+.xmodule_display.xmodule_VideoBlock .video {
+    margin-top: -3%;
+}
 
 
 .textHeadline,
@@ -518,6 +520,7 @@ h3.textHeadlineNoLine {
     color: #8BC1F1 !important;
     font-weight: 500;
     font-size: 1.4em !important;
+    display: none;
 }
 
 
