@@ -1397,19 +1397,19 @@ button.unbutton.btn-link.keyboard-help-button {
 }
 
 .xblock--drag-and-drop .problem-title {
-font-size: 1.5em !important;
+    font-size: 1.5em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    padding: 6px 14px;
+    padding: 1px 14px 4px 29px;
     font-weight: 700 !important;
-    color: #282f39 !important;
+    color: white;
     margin-top: -47px;
-    border-radius: 16px 0px 0px 16px;
+    border-radius: 25px 0px 0px 25px;
     display: inline;
     z-index: 1;
     left: 26px;
-    background: #8ebfe7;
+    background: linear-gradient(90deg, rgb(61, 177, 199) 0%, rgb(58, 165, 193) 30%, rgb(48, 117, 171) 100%);
 }
 
 
