@@ -510,6 +510,10 @@ h3.textHeadlineNoLine {
     color: #8BC1F1 !important;
 }
 
+.greyBG h3.textHeadlineNoLine {
+    font-size: 1.8em !important;
+}
+
 .xmodule_VideoBlock h3.hd.hd-2 {
     color: #8BC1F1 !important;
     font-weight: 600;
@@ -1728,7 +1732,7 @@ img.falseAnsImg {
     /*margin: 17px;
     transform: rotate(2deg);
     padding-bottom: 5px;*/
-    margin: 28px 10px 50px 10px;
+    margin: 28px 10px 20px 10px;
 }
 
 .boxinner hr {
