@@ -465,6 +465,9 @@ margin-top:0px !important;
     border-radius:unset;
 }
 
+.studio-xblock-wrapper h4.textHeadlineNoLine {
+    color: #313131 !important;
+}
 
 h4.textHeadlineNoLine {
     display: inline;
@@ -1705,6 +1708,7 @@ img.falseAnsImg {
     float: right;
     margin-left: 10px;
     width: 7%;
+    margin-top: 0.6% !important;
 }
 
 .boxinner {
@@ -2028,6 +2032,9 @@ nav.course-navigation {
     width: 95%;
 } 
 
+.jump-nav {
+    color: white;
+}
 
 
 article.xblock-render .problems-wrapper {
