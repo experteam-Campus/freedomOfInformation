@@ -363,7 +363,7 @@ h3.maintextHeadline:after {
     border-radius: 50px;
     display: inline;
     z-index: 1;
-    background: linear-gradient(90deg, rgba(61,177,199,1) 0%, rgba(58,165,193,1) 30%, rgba(48,117,171,1) 100%);
+    background: linear-gradient(90deg, rgba(61,177,199,1) 0%, rgba(58,165,193,1) 10%, rgba(48,117,171,1) 100%);
 }
 
 .maintextHeadline:before {
@@ -428,8 +428,24 @@ margin-top:0px !important;
 .discussion-module-title {
     color: #ffffff !important;
     right: 0 !important;
+    background: transparent !important;
+    border-bottom: 3px solid #fffefe;
+    border-radius: unset !important;
 }
 
+h3.hd.hd-3.discussion-module-title::before {
+    content: ' ';
+    border-radius: 100px;
+    background-color: #ff9600;
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    top: 34px;
+    left: -11px;
+    z-index: 0;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15p;
+}
 
 .textHeadline:after {
     background-color: white;
@@ -482,9 +498,9 @@ h4.textHeadlineNoLine:before {
     background-color: #ff9600;
     position: absolute;
     content: "";
-    width: 6%;
-    height: 29%;
-    top: 42px;
+    width: 15px;
+    height: 15px;
+    top: 40px;
     left: -11px;
     z-index: 0;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
@@ -658,11 +674,11 @@ font-size: 1.5em !important;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
     padding: 6px 14px;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
     border-radius: 47px;
     display: inline;
     z-index: 1;
-    background: #5d9dd6;
+    background: linear-gradient(90deg, rgba(61,177,199,1) 0%, rgba(58,165,193,1) 30%, rgba(48,117,171,1) 100%);
     color:white;
 }
 
@@ -671,7 +687,7 @@ font-size: 1.5em !important;
     content: "";
     width: 103%;
     height: 119%;
-    top: -7px;
+    top: -6px;
     left: -2%;
     /* transform: rotate( 1.5deg); */
     z-index: 0;
@@ -1174,7 +1190,7 @@ color: white;
 
 
 .course-index .accordion .course-navigation .button-chapter .group-heading {
-    font-size: 1.2em !important;
+    font-size: 1.3em !important;
 }
 
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
@@ -1189,7 +1205,7 @@ color: white;
 .btn-link,
 .proctored_exam_status .exam-timer .exam-button-turn-in-exam,
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
-    font-size: 1.03em;
+    font-size: 1.1em;
     line-height: 1.2em;
 }
 
@@ -1686,12 +1702,9 @@ img.falseAnsImg {
 
 .toDoListDiv {
     padding: 25px 10px 10px 10px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     margin-top: -40px;
     margin-right: 10px;
-    /*background: #fff;
-    border: solid #142654;
-    border-color: #142654;*/
     width: 90%;
     border-width: 3px 3px 5px 5px;
     border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
