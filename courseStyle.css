@@ -427,6 +427,7 @@ margin-top:0px !important;
 
 .discussion-module-title {
     color: #ffffff !important;
+    right: 0 !important;
 }
 
 
@@ -484,6 +485,15 @@ h4.textHeadlineNoLine:before {
     left: -11px;
     z-index: 0;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
+}
+
+h3.textHeadlineNoLine {
+    color: #8BC1F1 !important;
+}
+
+.xmodule_VideoBlock h3.hd.hd-2 {
+    color: #8BC1F1 !important;
+    font-weight: 600;
 }
 
 
@@ -617,7 +627,7 @@ font-size: 1.5em !important;
     /*color: #282f39 !important;*/
     color: white;
     margin-top: -47px;
-    border-radius: 16px 0px 0px 16px;
+    border-radius: 25px 0px 0px 25px;
     display: inline;
     z-index: 1;
     left: 26px;
@@ -727,7 +737,7 @@ body.view-in-course .static_tab_wrapper {
 
 
 .greyBG img{
-    max-width: 11% !important;
+    max-width: 12% !important;
     padding: 16px !important;
 
 }
@@ -2015,7 +2025,7 @@ color: #282f39 !important;
 nav.course-navigation {
     margin-top: 20px !important;
     padding-top: 3px !important;
-    width: 97%;
+    width: 95%;
 } 
 
 
