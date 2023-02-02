@@ -300,7 +300,8 @@ body .breadcrumbs .nav-item a {
 
 /* MAIN TEXT HEADLINE */
 
-.maintextHeadline {
+/*ישן*/
+/*.maintextHeadline {
     font-size: 1.8em !important;
     position: relative;
     width: fit-content;
@@ -346,7 +347,54 @@ h3.maintextHeadline:after {
     z-index: 0;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
     background-color: #ff9600;
+}*/
+
+/*חדש*/
+
+.maintextHeadline {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 1px 14px 4px 29px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    border-radius: 50px;
+    display: inline;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(61,177,199,1) 0%, rgba(58,165,193,1) 30%, rgba(48,117,171,1) 100%);
 }
+
+.maintextHeadline:before {
+    /*border: 2px solid #ff9600;*/
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    position: absolute;
+    content: "";
+    width: 105%;
+    height: 130%;
+    top: -19%;
+    left: -3%;
+    z-index: 0;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
+}
+
+h3.maintextHeadline:after {
+    border: 2px solid #ff9600;
+    border-radius: 77px;
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 9px;
+    top: -33%;
+    left: 27px;
+    z-index: 0;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
+    background-color: #ff9600;
+}
+
+
 
 
 /* VIDEO AND REGULAR TEXT HEADLINE */
@@ -416,7 +464,9 @@ margin-top:0px !important;
 h4.textHeadlineNoLine {
     display: inline;
     border-bottom: 3px solid #fffefe;
-     border-radius:unset;
+    border-radius: unset;
+    font-weight: 700 !important;
+    color: white;
 }
 
 h4.textHeadlineNoLine:before {
@@ -1105,6 +1155,11 @@ color: white;
 
 }
 
+
+.course-index .accordion .course-navigation .button-chapter .group-heading {
+    font-size: 1.2em !important;
+}
+
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     position: relative;
     display: block;
@@ -1117,8 +1172,8 @@ color: white;
 .btn-link,
 .proctored_exam_status .exam-timer .exam-button-turn-in-exam,
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
-    font-size: 1em;
-    line-height: 1em;
+    font-size: 1.03em;
+    line-height: 1.2em;
 }
 
 .course-index .accordion .course-navigation .button-chapter {
@@ -1956,6 +2011,7 @@ color: #282f39 !important;
 nav.course-navigation {
     margin-top: 20px !important;
     padding-top: 3px !important;
+    width: 97%;
 } 
 
 
