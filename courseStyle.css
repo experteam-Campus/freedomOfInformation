@@ -1601,6 +1601,17 @@ img.generalAnsImg {
     margin-right: 0%;
 }
 
+.generalAns::before {
+    content: " ";
+    background: url(//courses.campus.gov.il/assets/courseware/v1/7be6562d48b834260d7315c668f033f6/asset-v1:MoJ+GOV_InformationFreedom_HE+2022_1+type@asset+block/generalAns.png) right top no-repeat;
+    background-size: 60% auto;
+    padding-top: 8%;
+    margin-left: 1%;
+    padding-left: 14%;
+    position: absolute;
+    top: 20%;
+}
+
 .generalAns p {
     padding-right: 15%;
 }
