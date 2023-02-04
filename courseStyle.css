@@ -1594,12 +1594,11 @@ span.group-heading.active {
 }
 
 img.generalAnsImg {
-    width: 13%;
+    width: 11%;
     position: relative;
     float: right;
-    bottom: 52px;
-    margin-right: -6%;
-   
+    bottom: 5px;
+    margin-right: 0%;
 }
 
 .generalAns p {
