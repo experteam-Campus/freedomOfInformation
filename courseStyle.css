@@ -408,6 +408,9 @@ margin-top:0px !important;
     margin-top: -3%;
 }
 
+.xmodule_display.xmodule_VideoBlock .video .subtitles .subtitles-menu {
+    direction: ltr;
+}
 
 .textHeadline,
 .textHeadlineNoLine,
