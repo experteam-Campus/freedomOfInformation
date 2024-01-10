@@ -393,7 +393,7 @@ h3.maintextHeadline:after {
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
 }*/
 
-h3.maintextHeadline:after {
+.maintextHeadline:after {
     border: 2px solid #ff9600;
     border-radius: 77px;
     position: absolute;
