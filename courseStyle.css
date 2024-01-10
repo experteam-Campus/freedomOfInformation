@@ -376,9 +376,10 @@ h3.maintextHeadline:after {
     display: inline;
     z-index: 1;
     background: linear-gradient(90deg, rgba(61,177,199,1) 0%, rgba(58,165,193,1) 10%, rgba(48,117,171,1) 100%);
+    border: 6px solid #282f39;
+    box-shadow: rgb(255 255 255 / 100%) 0px 0px 0px 2px;
 }
-
-.maintextHeadline:before {
+/*.maintextHeadline:before {
     /*border: 2px solid #ff9600;*/
     border: 2px solid #ffffff;
     border-radius: 100px;
@@ -390,7 +391,7 @@ h3.maintextHeadline:after {
     left: -4.3%;
     z-index: 0;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
-}
+}*/
 
 h3.maintextHeadline:after {
     border: 2px solid #ff9600;
@@ -703,9 +704,11 @@ font-size: 1.5em !important;
     z-index: 1;
     background: linear-gradient(90deg, rgba(61,177,199,1) 0%, rgba(58,165,193,1) 30%, rgba(48,117,171,1) 100%);
     color:white;
+    border: 6px solid #282f39;
+    box-shadow: rgb(255 255 255 / 100%) 0px 0px 0px 2px;
 }
 
-.tirgulHeadline:before {
+/*.tirgulHeadline:before {
     position: absolute;
     content: "";
     width: 105%;
@@ -717,7 +720,7 @@ font-size: 1.5em !important;
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
     border: 2px solid #fffefe;
     border-radius: 51px;
-}
+}*/
 
 .simple-solution div h3 {
     font-size: 1.4em !important;
