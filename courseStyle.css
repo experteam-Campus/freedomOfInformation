@@ -379,19 +379,6 @@ h3.maintextHeadline:after {
     border: 6px solid #282f39;
     box-shadow: rgb(255 255 255 / 100%) 0px 0px 0px 2px;
 }
-/*.maintextHeadline:before {
-    /*border: 2px solid #ff9600;*/
-    border: 2px solid #ffffff;
-    border-radius: 100px;
-    position: absolute;
-    content: "";
-    width: 107%;
-    height: 130%;
-    top: -19%;
-    left: -4.3%;
-    z-index: 0;
-    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
-}*/
 
 .maintextHeadline:after {
     border: 2px solid #ff9600;
