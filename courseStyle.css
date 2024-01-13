@@ -1727,6 +1727,10 @@ img.falseAnsImg {
     border-right: 2px solid white !important;
 }
 
+.xmodule_display.xmodule_HtmlBlock table th {
+    color: #282f39 !important;
+    font-size: 18px;
+}
 
 /* TO DO LIST */
 
