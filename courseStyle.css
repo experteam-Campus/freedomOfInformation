@@ -1826,6 +1826,12 @@ img.falseAnsImg {
     text-transform: none;
 }
 
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn:hover {
+    text-decoration: none;
+    text-transform: none;
+    color: #2e353e;
+}
+
 .xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default {
     background: #3db0c6;
     border: none;
