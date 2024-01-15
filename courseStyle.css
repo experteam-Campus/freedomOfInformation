@@ -1867,7 +1867,14 @@ img.falseAnsImg {
     border-radius: 3px !important;
     margin-left: 10px;
     border: none;
-    padding-right: 17px;
+    padding-right: 17px !important;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-button-wrapper:hover {
+    background-color: #8fc1e9 !important;
+    color: #2e353e;
+    text-shadow: none;
+    text-decoration: none;
 }
 
 body .course-content .bookmark-button-wrapper .bookmark-button {
