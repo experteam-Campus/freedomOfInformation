@@ -1829,7 +1829,7 @@ img.falseAnsImg {
 .xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn:hover {
     text-decoration: none !important;
     text-transform: none;
-    color: #2e353e;
+    color: #2e353e !important;
 }
 
 .xblock.xmodule_display.xmodule_ProblemBlock .problem button.btn-default {
