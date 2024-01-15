@@ -1822,12 +1822,12 @@ img.falseAnsImg {
 .xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn {
     margin-left: 4px;
     max-width: 110px;
-    text-decoration: none;
+    text-decoration: none !important;
     text-transform: none;
 }
 
-.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn span:hover {
-    text-decoration: none;
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn:hover {
+    text-decoration: none !important;
     text-transform: none;
     color: #2e353e;
 }
