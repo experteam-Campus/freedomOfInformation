@@ -1826,7 +1826,7 @@ img.falseAnsImg {
     text-transform: none;
 }
 
-.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn:hover {
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn span:hover {
     text-decoration: none;
     text-transform: none;
     color: #2e353e;
