@@ -709,8 +709,8 @@ font-size: 1.5em !important;
     border-radius: 51px;
 }*/
 
-.simple-solution div h3 {
-    font-size: 1.4em !important;
+solution h3 {
+    /*font-size: 1.4em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
@@ -721,23 +721,25 @@ font-size: 1.5em !important;
     border-radius: 10px;
     display: inline;
     z-index: 1;
-    background: #142657;
+    background: #142657;*/
+    color: white;
+    font-weight: bold;
+    padding-bottom: 1%;
 }
 
-.simple-solution div h3:before {
-    border: 2px solid #fcc02eff;
-    border-radius: 7px;
-    position: absolute;
+solution:before {
     content: "";
-    width: 101%;
-    height: 100%;
-    top: -3px;
-    left: 1px;
-    transform: rotate(2.5deg);
+    border: 2px solid #ff9600;
+    border-radius: 77px;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: -5%;
+    left: 15%;
     z-index: 0;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px;
+    background-color: #ff9600;
 }
-
 
 
 /* cancel the little shadow on the left */
