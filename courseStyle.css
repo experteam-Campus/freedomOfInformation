@@ -1677,6 +1677,7 @@ img.generalAnsImg {
     padding-left: 14%;
     position: absolute;
     top: 20%;
+    filter: hue-rotate(291deg);
 }
 
 img.trueAnsImg {
@@ -1715,6 +1716,7 @@ img.trueAnsImg {
     padding-left: 14%;
     position: absolute;
     top: 20%;
+    filter: hue-rotate(170deg) saturate(3);
 }
 
 img.falseAnsImg {
