@@ -452,6 +452,10 @@ h3.hd.hd-3.discussion-module-title::before {
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15p;
 }
 
+span.inline-discussion-topic-title {
+    display: none;
+}
+
 .textHeadline:after {
     background-color: white;
     border-radius: 77px;
