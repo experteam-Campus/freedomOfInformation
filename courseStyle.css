@@ -794,13 +794,14 @@ body.view-in-course .static_tab_wrapper {
     border-radius: 12px;
     display: flex;
     border: 3px solid #8BC1F1;
+    align-items: center;
 }
 
 
 .greyBG img{
     max-width: 12% !important;
     padding: 16px !important;
-
+height: -webkit-fill-available !important;
 }
 .greyBG p{
    color: white !important;
