@@ -1661,6 +1661,12 @@ img.generalAnsImg {
     padding-right: 15%;
 }
 
+.generalAns ul li {
+    padding-right: 15%;
+    color:white;
+}
+
+
 /* CORRECT ANSWER */
 
 .trueAns {
