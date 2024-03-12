@@ -1662,8 +1662,8 @@ img.generalAnsImg {
 }
 
 .generalAns ul li {
-    padding-right: 15%;
-    color:white;
+    margin-right: 15%;
+    color:white !important;
 }
 
 
