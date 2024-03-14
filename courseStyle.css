@@ -816,11 +816,16 @@ height: -webkit-fill-available !important;
     border: 3px solid #FF9600 !important;
 }
 
-.textDiv.greyBG.orangeBG h3{
+.textDiv.greyBG.orangeBG div h3{
     color: white !important;
     font-size: 1.5em !important;
     font-weight: bold !important;
 }
+
+.textDiv.greyBG.orangeBG p {
+    padding-top: 0px !important;
+}
+
 
 .textDiv.WWL {
     background-color: #dde8ff;
