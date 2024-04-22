@@ -6,12 +6,12 @@
     font-family: 'Assistant', sans-serif;
 }
 
-span.course-number {
+
+
+.course-header {
     display: none;
 }
-span.provider {
-   display: none;  
-}
+
 .course-content{
  color:white;
      background-color: #282f39;
