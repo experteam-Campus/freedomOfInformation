@@ -130,7 +130,7 @@ span,
     padding: 0 0;
 }
 
-/*HIDE GREEN CHECKMARK*/
+/*HIDE GREEN CHECKMARK
 .fa-check-circle {
     display: none !important;
     font-size: 0 !important;
@@ -139,7 +139,7 @@ span,
 .fa-check-circle:before {
     content: "" !important;
 }
-
+*/
 
 /* P PREFERENCES */
 
