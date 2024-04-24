@@ -2257,6 +2257,19 @@ button.btn-link.new-post-btn {
 }
 
 
+    .xmodule_display.xmodule_ProblemBlock div.problem .action .submission-feedback {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    color: #5e5e5e;
+    font-size: 0.9em;
+    -webkit-font-smoothing: antialiased;
+    vertical-align: middle;
+    color: white !important;
+}
+
+    
+
 .solution-span {
     border: 2px solid #3caec4 !important;
     border-radius: 70px !important;
