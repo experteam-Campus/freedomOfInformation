@@ -2247,3 +2247,7 @@ color: black;
 button.btn-link.new-post-btn {
     color: white !important;
 }
+
+.breadcrumbs {
+    font-size: 1rem !important;
+    {
