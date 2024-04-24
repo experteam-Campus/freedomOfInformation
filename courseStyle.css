@@ -2251,3 +2251,7 @@ button.btn-link.new-post-btn {
 .breadcrumbs {
     font-size: 1rem !important;
     {
+.input_cloud_section {
+    display: flex !important;
+    flex-direction: column !important;
+}
