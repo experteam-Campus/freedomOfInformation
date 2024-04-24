@@ -2244,4 +2244,6 @@ color: black;
     margin-left: 15px;
     color: #f8981d;
 }
-
+button.btn-link.new-post-btn {
+    color: white !important;
+}
