@@ -2281,16 +2281,15 @@ button.btn-link.new-post-btn {
     color: white !important;
 }
 
- .solution-span:before {
+.solution-span p:before {
     content: "" !important;
     border: 2px solid #ff9600 !important;
     border-radius: 77px !important;
     position: absolute !important;
     width: 12px !important;
     height: 12px !important;
-    top: -5% !important;
-    left: 15% !important;
+    top: -6% !important;
+    left: 19% !important;
     z-index: 0 !important;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px !important;
     background-color: #ff9600 !important;
-}   
