@@ -2269,8 +2269,7 @@ button.btn-link.new-post-btn {
 }
 
     
-
-.solution-span {
+.solution-span p {
     border: 2px solid #3caec4 !important;
     border-radius: 70px !important;
     background-color: #262d37 !important;
