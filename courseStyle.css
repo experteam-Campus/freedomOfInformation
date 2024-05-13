@@ -2293,3 +2293,9 @@ button.btn-link.new-post-btn {
     z-index: 0 !important;
     box-shadow: rgb(0 0 0 / 12%) 0px 0px 15px 1px !important;
     background-color: #ff9600 !important;
+}
+
+.check-circle{
+
+    display:none !important;
+}
