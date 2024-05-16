@@ -138,6 +138,7 @@ span,
 
 .fa-check-circle:before {
     content: "" !important;
+display:none !important;
 }
 */
 
