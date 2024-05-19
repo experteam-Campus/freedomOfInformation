@@ -2300,3 +2300,8 @@ button.btn-link.new-post-btn {
 
     display:none !important;
 }
+
+
+    ol.tabs.course-tabs li:nth-child(2) {
+    display: none !important;
+}
