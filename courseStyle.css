@@ -2262,7 +2262,7 @@ button.btn-link.new-post-btn {
     margin-left: 10px;
     margin-top: 10px;
     display: inline-block;
-    color: #5e5e5e;
+    color: white !importat;
     font-size: 0.9em;
     -webkit-font-smoothing: antialiased;
     vertical-align: middle;
