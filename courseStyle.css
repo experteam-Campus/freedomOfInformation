@@ -2314,7 +2314,7 @@ button.btn-link.new-post-btn {
     margin-left: 10px;
     margin-top: 10px;
     display: inline-block;
-    color: #ffffff;
+    color: #ffffff !important;
     font-size: 0.9em;
     -webkit-font-smoothing: antialiased;
     vertical-align: middle;
